@@ -56,7 +56,7 @@ if(SKBUILD)
 endif()
 
 set(Python_FIND_IMPLEMENTATIONS CPython PyPy)
-find_package(Python COMPONENTS Interpreter Development.Module REQUIRED)
+#find_package(Python COMPONENTS Interpreter Development.Module REQUIRED)
 add_subdirectory(pybind11)
 
 add_subdirectory(src)
